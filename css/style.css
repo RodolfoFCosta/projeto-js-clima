@@ -8,7 +8,7 @@
 }
 
 body {
-     background: linear-gradient(180deg, rgb(230, 87, 26) 0%, #db7d2a 100%);
+     background: linear-gradient(180deg, rgb(87, 86, 86) 0%, #170d04 100%);
      display: flex;
      justify-content: center;
      align-items: center;
@@ -20,7 +20,7 @@ body {
 }
 
 .container{
-    background-color: #14556df9;
+    background-color: #61146df9;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 2rem;
     color: #dfdfdf;
@@ -47,7 +47,7 @@ body {
     padding: 0.8rem;
     min-width: 50px;
     margin-left: 8px;
-    background-color: #335af5;
+    background-color: #2f54e7;
     color: #dfdfdf;
     border: none;
     cursor: pointer;
@@ -64,6 +64,13 @@ body {
     text-align: center;
 }
 
+#weather-data h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
 #weather-data h2 i {
     font-size: 1rem;
 }
@@ -73,11 +80,11 @@ body {
 }
 
 #temperature {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 #country {
-    height: 15px;
+    height: 18px;
 }
 
 #description-container{
